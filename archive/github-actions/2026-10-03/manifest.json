@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "repository": "tanshuai/watchit-app",
+  "repository_id": 476952538,
+  "date": "2026-10-03",
+  "source_sha": "f3093c6bfdfb34c88df29ef11423c35bc5aa484c",
+  "entries": [
+    {
+      "original_path": ".github/workflows/publish-web.yml",
+      "archived_path": "archive/github-actions/2026-10-03/.github/workflows/publish-web.yml",
+      "source_blob_sha": "eb20161ad804ffe936110912bb0a7587afda0bad",
+      "sha256": "d6c8e0ab898e23c42e9362956333aa407750d19e55f770d835d67a9ad61f4878",
+      "workflow_id": null,
+      "workflow_state_before": null,
+      "business_consumer": "Inherited upstream-only automation from WatchItDev/watchit-app",
+      "retirement_reason": "No current custom development/deployment consumer identified; owner-approved archival of inherited fork automation; preserve source and passive security alerts",
+      "config_finding_ids": [],
+      "secret_names": [
+        "IPFS_DEPLOY_CLOUDFLARE__API_TOKEN",
+        "IPFS_DEPLOY_CLOUDFLARE__RECORD",
+        "IPFS_DEPLOY_CLOUDFLARE__ZONE",
+        "IPFS_DEPLOY_PINATA__API_KEY",
+        "IPFS_DEPLOY_PINATA__SECRET_API_KEY"
+      ],
+      "external_entrypoint_types": [],
+      "local_dependency_paths": [],
+      "restore": "Restore archived YAML and the listed dependency snapshots in a reviewed PR; validate runtime/action versions, consumers and write destinations before explicitly re-enabling the original workflow ID."
+    },
+    {
+      "original_path": ".github/workflows/publish.yml",
+      "archived_path": "archive/github-actions/2026-10-03/.github/workflows/publish.yml",
+      "source_blob_sha": "695fe45aac1a25f7719090bd82a879f4f51203fb",
+      "sha256": "8094931d49db49504d190619db389a1a585d67ba9ba80b55a85e975903844703",
+      "workflow_id": null,
+      "workflow_state_before": null,
+      "business_consumer": "Inherited upstream-only automation from WatchItDev/watchit-app",
+      "retirement_reason": "No current custom development/deployment consumer identified; owner-approved archival of inherited fork automation; preserve source and passive security alerts",
+      "config_finding_ids": [],
+      "secret_names": [
+        "GH_TOKEN"
+      ],
+      "external_entrypoint_types": [],
+      "local_dependency_paths": [],
+      "restore": "Restore archived YAML and the listed dependency snapshots in a reviewed PR; validate runtime/action versions, consumers and write destinations before explicitly re-enabling the original workflow ID."
+    },
+    {
+      "original_path": ".github/workflows/test.yml",
+      "archived_path": "archive/github-actions/2026-10-03/.github/workflows/test.yml",
+      "source_blob_sha": "d497c0f4343c240a4d4f58147eae7cee8a7548a7",
+      "sha256": "75dbcd2e9f4a398a09b1e1e31e49fa3cf5306fbe26b0f0e772e2a778cadddc9b",
+      "workflow_id": null,
+      "workflow_state_before": null,
+      "business_consumer": "Inherited upstream-only automation from WatchItDev/watchit-app",
+      "retirement_reason": "No current custom development/deployment consumer identified; owner-approved archival of inherited fork automation; preserve source and passive security alerts",
+      "config_finding_ids": [
+        "CFG-006",
+        "CFG-032"
+      ],
+      "secret_names": [],
+      "external_entrypoint_types": [],
+      "local_dependency_paths": [],
+      "restore": "Restore archived YAML and the listed dependency snapshots in a reviewed PR; validate runtime/action versions, consumers and write destinations before explicitly re-enabling the original workflow ID."
+    }
+  ],
+  "code_and_dependency_snapshots": [
+    {
+      "original_path": "package-lock.json",
+      "archived_path": "archive/github-actions/2026-10-03/package-lock.json",
+      "source_blob_sha": "22141392e2c7e76221848dbcd29163f389bbe072",
+      "sha256": "cb31418f791dfe051647cb0f6355b3a5eadeb7e4fe30670fe4e68f1a5411b7a0",
+      "original_retained": true,
+      "reason": "workflow-local/direct code or dependency configuration copied for recovery; shared source left in place"
+    },
+    {
+      "original_path": "package.json",
+      "archived_path": "archive/github-actions/2026-10-03/package.json",
+      "source_blob_sha": "83ed1690a1d4f530c37d3de12e8c2edeb679132e",
+      "sha256": "611b0dac5b43167cd521ba62a699141024572d8aeefb6417c84bb6ef96a620e5",
+      "original_retained": true,
+      "reason": "workflow-local/direct code or dependency configuration copied for recovery; shared source left in place"
+    }
+  ],
+  "upstream_preflight": {
+    "parent": "WatchItDev/watchit-app",
+    "source_sha": "f3093c6bfdfb34c88df29ef11423c35bc5aa484c",
+    "ahead_by": 0,
+    "behind_by": 2081,
+    "status": "behind",
+    "retained_runs": 0,
+    "semantic_note": "Current entrypoints reviewed individually; only inherited upstream CI/tests/releases/doc generators, no custom fork commits or live production consumer identified. No repository Actions enabling or passive alert changes."
+  },
+  "caller_check": {
+    "current_all_accessible_workflows": 286,
+    "remaining_reusable_callers": [],
+    "external_dispatch_note": "Declared dispatch/manual entrypoints recorded; entire retired source preserved. No dispatch APIs were invoked."
+  },
+  "passive_security_alerts": "No alert setting changed. Archived version-update YAML is no longer active configuration.",
+  "rollback": "Reviewed source restoration plus explicit workflow enablement; for unsafe cross-repository publishers establish an updated producer/consumer contract and guarded destination before restoring."
+}
